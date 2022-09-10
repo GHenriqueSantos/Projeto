@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="assets/js/script.js"></script>
+    <link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">
+    <script src="assets/js/script.js"></script>
+    <title class="titulo">Cadastro, Lista de cadastro</title>
+</head>
+<body>
+<!--Inicio do codigo parte do cabeçario do site-->
+    <header>
+        <div class="imagem">
+            <nav class="nav-pri">  
+                <div class="nav-list">
+                    <ul>
+                        <li class="li"><a class="link" href="#cadastro">Cadastro</a></li>
+                        <li class="li"><a class="link" href="#list">Lista</a></li>
+                        <li class="li"><a class="link" href="#sobre mim">Sobre mim</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()"><img class="icon" src="imagens/menu2.jpg" alt=""></button>
+                </div>
+            <nav class="nav-segundo">
+                <div class="mobile-menu">
+                    <ul class="ul-segundo">
+                        <li class="li-segundo"><a class="link-segundo" href="#list">Lista</a></li>
+                        <li class="li-segundo"><a class="link-segundo" href="#sobre mim">Sobre mim</a></li>
+                        <li class="li-segundo"><a class="link-segundo" href="#cadastro">Cadastro</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+</header>
+<!--Fim do codigo parte do cabeçario do site-->
+<!--Inicio do codigo parte do Formulario do site-->
+<section id="cadastro">
+<div class="formulario">
+    <h1 style="font-family: fonteRR;">Cadastro</h1>
+    <form action="cadastro.php" method="post">
+        <div class="input-single">
+        <label for="inome" style="font-family: fonteRR;">Nome</label>
+        <input type="text" name="nome" id="inome" style="font-family: fontePs;">
+        </div>
+        <div class="input-single">
+        <label for="ie-mail" style="font-family: fonteRR;">E-mail</label>
+        <input type="email" name="e-mail" id="ie-mail" style="font-family: fontePs;" autocomplete="email" required>    
+        </div>
+        <div class="input-single">
+        <label for="idia" style="font-family: fonteRR;">Nascimento</label>
+        <input type="date" name="dia" id="idia" style="font-family: fontePs;"> 
+        </div>
+        <div class="input-single">
+        <label for="itelefone" style="font-family: fonteRR;">Telefone</label>
+        <input type="tel" name="telefone" id="itelefone" style="font-family: fontePs;" autocomplete="tel" required pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx)xxxxx-xxxx">    
+        </div>
+        <input type="submit" name="Cadastrar" value="CADASTRAR" style="font-family: fonteH;">   
+    </form> 
+</div>
+</section>
+<!--Fim do codigo parte do Formulario do site-->
+<!--Inicio do codigo parte da lista de cadastro do site-->
+<section id="list">
+<div class="lista">
+    <h1 style="color: #29abe2;">Lista De Cadastro</h1>
+    <table align="center">
+        <thead>
+            <tr>
+                <th></th>
+                <th>NOME</th>
+                <th>E-MAIL</th>
+                <th>NASCIMENTO</th>
+                <th>TELEFONE</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td style="color: #012d51; font-family: fonteRL;">1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="color: #012d51; font-family: fonteRL;">2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>   
+        <tr>
+            <td style="color: #012d51; font-family: fonteRL;">3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>    
+        <tr>
+            <td style="color: #012d51; font-family: fonteRL;">4</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</section>
+<!--Fim do codigo parte da lista de cadastro do site-->
+<!--Inicio do codigo parte do roda pé do site-->
+<footer id="sobre mim">
+<div class="rodape" style="font-family: fonteRL;">
+<p>Guilherme Henrique</p>
+<p>guilhermeiemg@hotmail.com</p>
+<p>(31) 9 97566-2317</p>
+<p>Faculdade de Belo Horizonte</p>
+</div>
+</footer>
+<!--Fim do codigo parte do roda pé do site-->
+</body>
+</html>
