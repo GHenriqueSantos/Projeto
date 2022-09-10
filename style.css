@@ -235,7 +235,7 @@ th{
 @media screen and (max-width: 600px) {
     .imagem{
         background-image: url('imagens/celular.jpg');
-        height: 500px;
+        height: 600px;
     }
     .nav-pri {
         padding: 1.5rem 4rem;
