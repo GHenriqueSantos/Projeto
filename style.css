@@ -233,6 +233,10 @@ th{
 
 }
 @media screen and (max-width: 600px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
     .imagem{
         background-image: url('imagens/celular.jpg');
         height: 600px;
@@ -284,6 +288,10 @@ th{
 }
 
 @media screen and (max-width: 400px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
     .imagem{
         background-image: url('imagens/celular.jpg');
         height: 650px;
