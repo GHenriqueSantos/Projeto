@@ -271,6 +271,9 @@ th{
         text-align: left;
         padding-bottom: 1rem;
     }
+    .li-segundo:hover{
+        background-color: rgb(50, 7, 151);
+    }
     .mobile-menu .nav-item {
         display: block;
         padding-top: 1.2rem;
