@@ -210,9 +210,9 @@ th{
     }
     .nav-segundo{
         background-color: #29abe2;;
-        width: 250px;
         position: absolute;
         display: block;
+       
     }
 
     .li {
