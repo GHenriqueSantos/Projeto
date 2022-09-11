@@ -32,6 +32,7 @@ h1{
     text-align: center;
     color: white;
     font-size: 30px;
+    
 
 }
 h3{
@@ -62,6 +63,7 @@ form{
     height: 350px;
     border: 1px solid black;
     
+    
 
 }
 .lista{
@@ -73,6 +75,10 @@ form{
     
 
 }
+.lista h1{
+    height: 100px;
+}
+
 .rodape{
 
     height: 200px;
@@ -190,7 +196,7 @@ th{
 
 @media screen and (max-width: 1000px) {
    *{
-    margin: 0;
+    margin: auto;
     padding: 0;
    }
     .imagem{
@@ -199,6 +205,8 @@ th{
     }
     .nav-pri {
         padding: 1.5rem 4rem;
+        width: 0px;
+        height: 0px;
     }
     .nav-segundo{
         background-color: #29abe2;;
@@ -206,6 +214,7 @@ th{
         position: absolute;
         display: block;
     }
+
     .li {
         display: none;
     }
