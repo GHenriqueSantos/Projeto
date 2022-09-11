@@ -146,15 +146,23 @@ th{
     font-size: 1.0rem;
     
 }
+.link-pri{
+    color: white;
+    font-size: 14px;
+}
+
 .link{
     text-decoration: none;
-    color: white
+    color: white;
+    font-size: 14px;
     
 }
 .nav-pri{
     text-align: right;
     justify-content: space-between;
     padding: 1.5rem 6rem;
+    width: 950px;
+    height: 21px;
 
 }
 
