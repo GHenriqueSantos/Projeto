@@ -186,6 +186,10 @@ th{
 
 
 @media screen and (max-width: 1000px) {
+   *{
+    margin: 0;
+    padding: 0;
+   }
     .imagem{
         background-image: url('imagens/cabeçario.png');
         height: 450px;
@@ -238,16 +242,15 @@ th{
 
 }
 @media screen and (max-width: 600px) {
-    *{
-        padding: 0;
-        margin: 0;
-    }
+
     .imagem{
         background-image: url('imagens/celular.jpg');
         height: 600px;
     }
     .nav-pri {
         padding: 1.5rem 4rem;
+        width: 0px;
+        height: 0px;
     }
     .nav-segundo{
         background-color: #29abe2;;
